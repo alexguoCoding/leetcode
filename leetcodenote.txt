@@ -15,3 +15,7 @@ Map<Integer,Integer>map=new HashMap<>();
 
 
  return new int[] { map.get(diff),i };
+
+Math.sqrt(c)
+Math.pow(i, 2)
+ if (b == (int) b)//check integer
