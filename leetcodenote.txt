@@ -12,6 +12,12 @@ Map<Integer,Integer>map=new HashMap<>();
  	   map.get(diff)
                    map.put(nums[i],i);
 
+ List<Integer> list= new ArrayList<>();
+                   list.add(i);
+ 	list.get(i);
+	list.size(i);
+
+
 
  return new int[] { map.get(diff),i };
 
