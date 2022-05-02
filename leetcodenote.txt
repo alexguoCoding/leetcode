@@ -1,6 +1,7 @@
  for (int i = 0; i < nums.length; ++i) {
          
         }
+
 Set<Integer> set = new HashSet<>();
                 set.contains(nums[i])
                 set.add(nums[i]);
@@ -11,4 +12,6 @@ Map<Integer,Integer>map=new HashMap<>();
                    map.containsKey(diff)
  	   map.get(diff)
                    map.put(nums[i],i);
+
+
  return new int[] { map.get(diff),i };
