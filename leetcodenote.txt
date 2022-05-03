@@ -11,6 +11,8 @@ Set<Integer> set = new HashSet<>();
                 set.add(nums[i]);//0： already has element
                set.size()
                set.remove(nums[i]);
+	Set.clear()
+ 	String[] result = set.toArray(new String[set.size()]);
 
 Map<Integer,Integer>map=new HashMap<>();
                    map.containsKey(diff)
