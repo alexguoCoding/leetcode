@@ -4,6 +4,7 @@
 for (int num : set) {}
 System.out.println(num);
 System.out.println("nums[i]:"+nums[i]);
+private int next(int m) {}
 
 Set<Integer> set = new HashSet<>();
                 set.contains(nums[i])
