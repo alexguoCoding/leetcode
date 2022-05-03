@@ -11,8 +11,6 @@ Set<Integer> set = new HashSet<>();
                 set.add(nums[i]);//0： already has element
                set.size()
                set.remove(nums[i]);
-	Set.clear()
- 	String[] result = set.toArray(new String[set.size()]);
 
 Map<Integer,Integer>map=new HashMap<>();
                    map.containsKey(diff)
@@ -32,6 +30,8 @@ Math.sqrt(c)
 Math.pow(i, 2)
  if (b == (int) b)//check integer
 Math.max(a,b);
+Math.abs()
+
 Arrays.sort(nums);
 
  int[] result = new int[resultvector.size()];
