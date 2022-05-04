@@ -39,3 +39,7 @@ Arrays.sort(nums);
         for (Integer num : resultvector) {
             result[k++] = num;
         }
+
+
+  ListNode result = new ListNode(0,head);
+       ListNode a = result;
