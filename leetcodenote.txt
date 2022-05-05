@@ -42,4 +42,8 @@ Arrays.sort(nums);
 
 
   ListNode result = new ListNode(0,head);
-       ListNode a = result;
+ ListNode temp=null;
+ListNode cur=head;
+  while(cur!=null){
+              cur=cur.next;
+        }
