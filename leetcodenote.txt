@@ -47,3 +47,7 @@ ListNode cur=head;
   while(cur!=null){
               cur=cur.next;
         }
+
+
+char[] s
+s.length
