@@ -51,3 +51,8 @@ ListNode cur=head;
 
 char[] s
 s.length
+
+ List<Integer> vals = new ArrayList<>();
+ vals.add(currentNode.val);
+ vals.size()
+get(front)
