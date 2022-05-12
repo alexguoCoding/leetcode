@@ -5,12 +5,14 @@ for (int num : set) {}
 System.out.println(num);
 System.out.println("nums[i]:"+nums[i]);
 private int next(int m) {}
+        Arrays.sort(nums);（small-big）
 
 Set<Integer> set = new HashSet<>();
                 set.contains(nums[i])
                 set.add(nums[i]);//0： already has element
                set.size()
                set.remove(nums[i]);
+	Collections.min(set)
 
 Map<Integer,Integer>map=new HashMap<>();
                    map.containsKey(diff)
