@@ -5,7 +5,8 @@ for (int num : set) {}
 System.out.println(num);
 System.out.println("nums[i]:"+nums[i]);
 private int next(int m) {}
-        Arrays.sort(nums);（small-big）
+  Arrays.sort(nums);（small-big)
+nums.length
 
 Set<Integer> set = new HashSet<>();
                 set.contains(nums[i])
@@ -33,6 +34,7 @@ Math.pow(i, 2)
  if (b == (int) b)//check integer
 a=Math.max(a,b);
 Math.abs()
+for(int n : ans) res += n;
 
 Arrays.sort(nums);
 
@@ -58,3 +60,32 @@ s.length
  vals.add(currentNode.val);
  vals.size()
 get(front)
+ compare and sort
+int[][] intervals
+        Arrays.sort(intervals,new Comparator<int[]>(){
+            @Override(s-b)
+            public int compare(int[] o1, int[] o2) {
+            if (o1[0] == o2[0]) return 0;
+            if (o1[0] < o2[0]) return -1;
+            return 1;
+            }
+        });
+
+        Arrays.sort(people, (a, b) -> {
+            if (a[0] == b[0]) return a[1] - b[1];(S-B)
+            return b[0] - a[0];(B-S)
+        });
+
+
+
+
+
+
+string S
+        for (int i = 0; i < S.length(); ++i)
+            last[S.charAt(i) - 'a'] = i;（0：a 1:b...）
+
+Liklist：
+       List<int[]> output = new LinkedList<>();
+      output.add(pos of p , p);
+      output.toArray(new int[n][2]);
