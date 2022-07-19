@@ -61,8 +61,10 @@ s.length
  vals.add(currentNode.val);
  vals.size()
 get(front)
- compare and sort
+ int remove =  vals.remove(0);
 
+
+ compare and sort
 int[][] intervals
         Arrays.sort(intervals,new Comparator<int[]>(){
             @Override(s-b)
@@ -94,3 +96,4 @@ Liklist：
 
 
 n < 0 ? a : b
+public int helper() {}
