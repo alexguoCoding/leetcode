@@ -25,7 +25,11 @@ Map<Integer,Integer>map=new HashMap<>();
                    list.add(i);
  	list.get(i);
 	list.size(i);
-
+ 	   List<Integer> vals = new ArrayList<>();
+                vals.add(currentNode.val);
+                vals.size()
+                get(front)
+                int remove =  vals.remove(0);
 
 
  return new int[] { map.get(diff),i };
@@ -57,11 +61,7 @@ ListNode cur=head;
 char[] s
 s.length
 
- List<Integer> vals = new ArrayList<>();
- vals.add(currentNode.val);
- vals.size()
-get(front)
- int remove =  vals.remove(0);
+
 
 
  compare and sort
