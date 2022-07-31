@@ -15,7 +15,9 @@ Set<Integer> set = new HashSet<>();
                set.remove(nums[i]);
 	Collections.min(set)
 
-Map<Integer,Integer>map=new HashMap<>();
+Map<Integer,Integer>map=new HashMap<>(){{
+		put('2', "abc");}};
+		Character/String
                    map.containsKey(N)
  	   map.get(N)
                    map.put(nums[i],i);
@@ -24,12 +26,24 @@ Map<Integer,Integer>map=new HashMap<>();
  List<Integer> list= new ArrayList<>();
                    list.add(i);
  	list.get(i);
-	list.size(i);
- 	   List<Integer> vals = new ArrayList<>();
+	list.size();
+
                 vals.add(currentNode.val);
                 vals.size()
                 get(front)
                 int remove =  vals.remove(0);
+
+ LinkedList<String> list = new LinkedList<String>();
+ 	list.add("Geeks");
+	 list.removeLast()
+	result.add(new ArrayList<>(list ));
+
+ StringBuilder sb = new StringBuilder();
+	sb.append(paths.get(i)).append("->");
+
+            	 list.add(sb.toString());
+	sb .deleteCharAt(index);
+
 
 
  return new int[] { map.get(diff),i };
@@ -61,6 +75,12 @@ ListNode cur=head;
 char[] s
 s.length
 
+String digits;
+	char digit = digits.charAt(index)
+	digits.length()
+	digits.substring(0,digits.length())(all)
+
+
 
 
 
@@ -88,6 +108,7 @@ int[][] intervals
 string S
         for (int i = 0; i < S.length(); ++i)
             last[S.charAt(i) - 'a'] = i;（0：a 1:b...）
+	String str = s.substring(startIndex, i + 1);
 
 Liklist：
        List<int[]> output = new LinkedList<>();
@@ -97,3 +118,7 @@ Liklist：
 
 n < 0 ? a : b
 public int helper() {}
+int i = 3;
+int a = i++; // a = 3, i = 4
+Integer.toString(root.val)
+Integer.parseInt(str)
