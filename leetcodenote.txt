@@ -31,12 +31,19 @@ Map<Integer,Integer>map=new HashMap<>(){{
                 vals.add(currentNode.val);
                 vals.size()
                 get(front)
+
                 int remove =  vals.remove(0);
+ 	List<List<Integer>> result =new ArrayList<>();
+	List<Integer> path=new ArrayList<>();
+	result.add(new ArrayList<>(path));
 
  LinkedList<String> list = new LinkedList<String>();
  	list.add("Geeks");
 	 list.removeLast()
 	result.add(new ArrayList<>(list ));
+              List<int[]> output = new LinkedList<>();
+            output.add(pos of p , p);
+            output.toArray(new int[n][2]);
 
  StringBuilder sb = new StringBuilder();
 	sb.append(paths.get(i)).append("->");
@@ -44,16 +51,25 @@ Map<Integer,Integer>map=new HashMap<>(){{
             	 list.add(sb.toString());
 	sb .deleteCharAt(index);
 
+Deque<String> deque = new LinkedList<>();
+         addLast(E e)
+          removeFirst()
+         getFirst()
+        addFirst(E e)
+        removeLast()
+       getLast() 
+
 
 
  return new int[] { map.get(diff),i };
 
-Math.sqrt(c)
-Math.pow(i, 2)
- if (b == (int) b)//check integer
-a=Math.max(a,b);
-Math.abs()
-for(int n : ans) res += n;
+Math
+    Math.sqrt(c)
+    Math.pow(i, 2)
+     if (b == (int) b)//check integer
+    a=Math.max(a,b);
+    Math.abs()
+    for(int n : ans) res += n;
 
 Arrays.sort(nums);
 
@@ -62,6 +78,15 @@ Arrays.sort(nums);
         for (Integer num : resultvector) {
             result[k++] = num;
         }
+	Arrays.fill（result，0);
+
+                    for (char ch :strs[i-1].toCharArray()) {
+                        if (ch == '0') {
+                            zeros++;
+                        } else {
+                            ones++;
+                        }
+                    }
 
 
   ListNode result = new ListNode(0,head);
@@ -79,6 +104,16 @@ String digits;
 	char digit = digits.charAt(index)
 	digits.length()
 	digits.substring(0,digits.length())(all)
+	digits.substring（x,y）(不包含y）
+ 	
+	char[] ch = digits.toCharArray();
+	new String(digit )
+ 	char c = digits;.charAt(left);
+	c == ' '
+string S
+        for (int i = 0; i < S.length(); ++i)
+            last[S.charAt(i) - 'a'] = i;（0：a 1:b...）
+	String str = s.substring(startIndex, i + 1);
 
 
 
@@ -105,15 +140,9 @@ int[][] intervals
 
 
 
-string S
-        for (int i = 0; i < S.length(); ++i)
-            last[S.charAt(i) - 'a'] = i;（0：a 1:b...）
-	String str = s.substring(startIndex, i + 1);
 
-Liklist：
-       List<int[]> output = new LinkedList<>();
-      output.add(pos of p , p);
-      output.toArray(new int[n][2]);
+
+
 
 
 n < 0 ? a : b
@@ -121,4 +150,5 @@ public int helper() {}
 int i = 3;
 int a = i++; // a = 3, i = 4
 Integer.toString(root.val)
-Integer.parseInt(str)
+Integer.parseInt(str)、
+Integer.MIN_VALUE
