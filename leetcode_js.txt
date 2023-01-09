@@ -1,0 +1,39 @@
+Array:
+
+	const array1 = [1, 2, 3];
+	firstElement = array1.shift();
+	array1.push(num);
+	array1.unshift(4, 5)//add front of array1
+	const reversed = array1.reverse();
+               (visited [][]) const visited = new Array(maze.length).fill(false).map(() => new Array(maze[0].length).fill(false));
+	s=s.concat(tempstr); (combine two array)
+
+
+let num1='';
+num1=num1.split("").reverse().join("")(reverse string)
+num1=parseInt(num1)(string->num)
+num1=num1.toString()(num>string)
+num3.charAt(0)(从左到右)
+   unshift -> [array] <- push
+   shift   <- [array] -> pop
+str1 == str2
+process.stdout.write("num1 ");
+
+Map :
+             let map = new Map()
+             map.set(curr, temp)
+              map.get(curr.random)
+	map.has(curr.random)
+	map.set(a, (map.get(a) || 0) + 1)))
+	for (let [key, value] of map) {
+
+
+
+Math    
+              Math.floor()
+	Math.pow(7, -2)
+
+              undefine|0=>0
+
+deepcopy:  let arraystr=[...palindrome]
+                 let newstr=str.split()

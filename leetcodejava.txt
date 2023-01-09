@@ -1,4 +1,4 @@
- for (int i = 0; i < nums.length; i++) { 
+for (int i = 0; i < nums.length; i++) { 
         }
  for (int num : nums) {}
 for (int num : set) {}
@@ -24,6 +24,7 @@ Map<Integer,Integer>map=new HashMap<>(){{
                   map. put(K key,V value)
  	  returned_value = hash_map.remove(Key);
                   map.remove(key)
+    for (Map.Entry<Integer,Integer>  temp: map.entrySet()) {
 
  List<Integer> list= new ArrayList<>();
                    list.add(i);
@@ -39,6 +40,10 @@ Map<Integer,Integer>map=new HashMap<>(){{
  	List<List<Integer>> result =new ArrayList<>();
 	List<Integer> path=new ArrayList<>();
 	result.add(new ArrayList<>(path));
+                    Integer[] numbers = new Integer[] { i, j };
+                  new int[]{r, c}
+                    List<Integer> list = Arrays.asList(numbers);
+
 
  LinkedList<String> list = new LinkedList<String>();
  	list.add("Geeks");/(ADD LAST)
@@ -54,6 +59,16 @@ Map<Integer,Integer>map=new HashMap<>(){{
             output.add(pos of p , p);
             output.toArray(new int[n][2]);
 
+ArrayList
+	      ArrayList<Integer>[] lists=new ArrayList[n];
+                     for (int i = 0; i < n; i++) {
+                      lists[i] = new ArrayList<Integer>();
+                  }
+	List<int []> result=new ArrayList<>();
+                      int[][] arr = new int[intervals.length][2];
+                    return result.toArray(arr);
+        
+
 
  StringBuilder sb = new StringBuilder();
 	sb.append(paths.get(i)).append("->");（get(String)）
@@ -63,6 +78,9 @@ Map<Integer,Integer>map=new HashMap<>(){{
                  sb.charAt(sb.length()-1)
                    sb.toString()
                      sb.setCharAt(pos, '!');
+		substring(int start)
+                    String res=result.toString();
+
 
 Deque<String> deque = new LinkedList<>();
          addLast(E e)
@@ -74,6 +92,18 @@ Deque<String> deque = new LinkedList<>();
      de_que.size()
      E pollFirst()：remove and get
      pop；remove first; 
+
+TreeMap<Integer,Integer> sortmap=new TreeMap<>();
+           sortmap.put(nums[r],sortmap.getOrDefault(nums[r],0)+1);
+            sortmap.firstKey()
+            sortmap.lastKey()
+
+
+
+PriorityQueue<Integer> minHeap = new PriorityQueue<>();( s-b)
+PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
+
+
 
 
 
@@ -162,6 +192,16 @@ int[][] intervals
             if (a[0] == b[0]) return a[1] - b[1];(S-B)
             return b[0] - a[0];(B-S)
         });
+PriorityQueue<Integer> maxheap=new PriorityQueue<>((n1, n2) -> map.get(n1) - map.get(n2)) small poll first;
+        PriorityQueue<String> minheap=new PriorityQueue<>((a,b)->{
+            if(map.get(a).equals(map.get(b))){
+                return b.compareTo(a);//a-b-c-d-e 
+                
+            }
+            else{
+                return map.get(a)-map.get(b);
+            }
+        });
 
 
   Iterator<Pair> iterator=lists[pos].iterator();
@@ -172,6 +212,13 @@ int[][] intervals
             Map.Entry<Integer, Integer> entry = iterator.next();
 		entry.getValue()
 entry.getKey()
+1
+2
+3
+4
+5	M
+
+
 
 
 位运算  ^  1^1=0
@@ -209,6 +256,7 @@ Integer.toString(root.val)
 Integer.parseInt(str)、
 Integer.MIN_VALUE
  matrix[left/coloumn][left%coloumn]
+long.intValue();(longto int)
 
            Random random = new Random();
             int randomIndex = random.nextInt(3);(0-2)

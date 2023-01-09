@@ -1,0 +1,15 @@
+①A inner join B：取交集
+
+②A left join B：取A全部，B没有对应的值，则为null
+
+③A right join B：取B全部，A没有对应的值，则为null
+
+④A full outer join B：取并集，彼此没有对应的值为null
++on 
+
+select FirstName, LastName, City, State
+from Person left join Address
+on Person.PersonId = Address.PersonId
+
+ Employee AS a,
+
