@@ -37,3 +37,5 @@ Math
 
 deepcopy:  let arraystr=[...palindrome]
                  let newstr=str.split()
+
+Char:       a'.charCodeAt()
