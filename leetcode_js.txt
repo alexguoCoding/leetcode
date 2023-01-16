@@ -39,3 +39,7 @@ deepcopy:  let arraystr=[...palindrome]
                  let newstr=str.split()
 
 Char:       a'.charCodeAt()
+
+bit manita:
+              n=n>>>1(no sign)
+             n=n<<1(ADD 0 to right)	
