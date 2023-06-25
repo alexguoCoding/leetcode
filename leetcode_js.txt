@@ -7,10 +7,12 @@ Array:
 	const reversed = array1.reverse();
                (visited [][]) const visited = new Array(maze.length).fill(false).map(() => new Array(maze[0].length).fill(false));
 	s=s.concat(tempstr); (combine two array)
+                array1.sort()
 
 
 let num1='';
 num1=num1.split("").reverse().join("")(reverse string)
+result.join("-").toUpperCase()
 num1=parseInt(num1)(string->num)
 num1=num1.toString()(num>string)
 num3.charAt(0)(从左到右)
@@ -18,6 +20,10 @@ num3.charAt(0)(从左到右)
    shift   <- [array] -> pop
 str1 == str2
 process.stdout.write("num1 ");
+sum.substring(0,firstl)
+final=result.join("-").toUpperCase()
+local=local.replaceAll('.','')
+let sign=e.indexOf('@');
 
 Map :
              let map = new Map()
@@ -42,4 +48,6 @@ Char:       a'.charCodeAt()
 
 bit manita:
               n=n>>>1(no sign)
-             n=n<<1(ADD 0 to right)	
+             n=n<<1(ADD 0 to right)
+	xorAll&(-xorAll) get last pos   1 for xorall 
+             a^b =0 （if a=b）
