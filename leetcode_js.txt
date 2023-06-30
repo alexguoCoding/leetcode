@@ -32,6 +32,11 @@ Map :
 	map.has(curr.random)
 	map.set(a, (map.get(a) || 0) + 1)))
 	for (let [key, value] of map) {
+Set:          set1.add(42);
+                set,delete
+               set1.has(1)
+             
+       
 
 
 
