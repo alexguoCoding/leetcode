@@ -8,6 +8,13 @@ Array:
                (visited [][]) const visited = new Array(maze.length).fill(false).map(() => new Array(maze[0].length).fill(false));
 	s=s.concat(tempstr); (combine two array)
                 array1.sort()
+    let sortAtrray=words.sort((a,b)=>{
+        if(a.length!=b.length){
+            return a.length-b.length//s-b
+        }
+        else{
+             return b.localeCompare(a)//b-s c
+        }
 
 
 let num1='';
