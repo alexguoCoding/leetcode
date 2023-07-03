@@ -28,6 +28,7 @@ num3.charAt(0)(从左到右)
 str1 == str2
 process.stdout.write("num1 ");
 sum.substring(0,firstl)
+sum.includes(s)
 final=result.join("-").toUpperCase()
 local=local.replaceAll('.','')
 let sign=e.indexOf('@');
@@ -50,6 +51,7 @@ Set:          set1.add(42);
 Math    
               Math.floor()
 	Math.pow(7, -2)
+	Number.NEGATIVE_INFINITY
 
               undefine|0=>0
 
