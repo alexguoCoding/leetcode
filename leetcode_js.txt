@@ -52,6 +52,7 @@ Math
               Math.floor()
 	Math.pow(7, -2)
 	Number.NEGATIVE_INFINITY
+	Math.floor(Math.random()*N) (0-1=>0-N)(NOT INCLUDE N)
 
               undefine|0=>0
 
