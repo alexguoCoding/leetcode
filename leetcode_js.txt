@@ -32,6 +32,7 @@ sum.includes(s)
 final=result.join("-").toUpperCase()
 local=local.replaceAll('.','')
 let sign=e.indexOf('@');
+savetemp[j]=String.fromCharCode(k+'a'.charCodeAt())
 
 Map :
              let map = new Map()
