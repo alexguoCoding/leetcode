@@ -77,6 +77,12 @@ https://github.com/datastructures-js/priority-queue
               a.size()
                q = new MinPriorityQueue({ priority: ([i,j]) => nums1[i] + nums2[j]})
   	let [i,j] = q.dequeue().element
+    maxqueue=new PriorityQueue({compare:(a,b)=>{
+      
+            return b[1]-a[1]
+ 
+    }})
+
 
 Sort: nums=nums.sort((a,b)=>b-a) (big to small)
 
