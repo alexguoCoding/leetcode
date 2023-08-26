@@ -12,6 +12,9 @@ result.append(root.val)
 arrayOrList.insert(0 , 0)
 arrayOrList.pop()
 
+String:
+string[start:end]
+
 Map
 
 map_dict = {}
