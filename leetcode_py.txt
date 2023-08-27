@@ -48,7 +48,11 @@ set1.add(42)
 Checking if an element exists in the set
 element_exists = 1 in set1
 
+Math
 float('inf')
 float('-inf')
 math.ceil(-23.11)
 math.floor(-23.11)
+math.pow(9, 3)
+
+result = 0 if min1 == 100000 else min1
