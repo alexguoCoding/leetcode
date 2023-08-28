@@ -52,6 +52,7 @@ set1 = set()
 set1.add(42)
 Checking if an element exists in the set
 element_exists = 1 in set1
+t = tuple([1,2]) set1.add(t)
 
 Math
 float('inf')
@@ -66,3 +67,4 @@ result = 0 if min1 == 100000 else min1
 class Node(object):
     def __init__(self):
         self.children={}
+ even[ord(char)-ord('a')]
