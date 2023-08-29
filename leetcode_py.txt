@@ -15,6 +15,7 @@ s = ''.join(char_list)
 sort1=sorted(sort1, key=lambda x: x[0])
  work[0:2]=[1,2]
  maxtarget = max(flights[i][1] for i in range(len(flights)))
+obs = set(tuple(obstacle) for obstacle in obstacles)
  dp = [[float('inf')] * n for _ in range(k + 2)]
 words = list(set(words)) #remove duplicates
 
@@ -45,6 +46,12 @@ for key, value in map_dict.items():
     # Your code inside the loop
 map1==map2
 len(map_dict )
+
+BalanceTree:
+Cnt = Counter()
+cnt[x] += 1
+max(cnt) - min(cnt)
+if cnt[y] == 0: del cnt[y]
 
 Set
 
